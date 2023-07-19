@@ -1,0 +1,156 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.page_1{
+  background-color: blueviolet;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+
+.page_1 button{
+  padding: 5px;
+  width: 95px;
+  border-radius: 9px;
+  background-color: rgb(31, 228, 31);
+  color: white;
+}
+
+
+.page_1 button:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+
+.page_2{
+  background-color: blueviolet;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.page_2 .card{
+  background-color: white;
+  width: 600px;
+  height: 500px;
+}
+
+.page_2 .card h1, .page_2 h3{
+  text-align: center;
+}
+
+.options{
+  display: grid;
+  grid-template-columns: 30% 30%;
+  /* border: 1px solid black; */
+  width: 80%;
+  /* justify-content: space-between; */
+  margin: 0 auto;
+  column-gap: 135px;
+  row-gap: 15px;
+}
+
+.options button{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10%;
+  border-width: 1px;
+  width: auto;
+  padding: 10px;
+  font-size: larger;
+}
+.options button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.under_dog{
+  padding: 20px;
+  text-align: center;
+}
+.under_dog button{
+  margin: 5px;
+  padding: 5px;
+  /* background-color: brown; */
+}
+
+.under_dog button{
+  background-color: green;
+}
+
+.under_dog button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.under_dog button:first-child{
+  background-color: rgb(131, 131, 228);
+}
+
+.under_dog button:last-child{
+  background-color: orange;
+}
+
+
+.page_3{
+  background-color: blueviolet;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.page_3 h1{
+  padding-top: 80px;
+  text-align: center;
+}
+
+.page_3 .card{
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  margin: 30px auto;
+}
+
+.page_3 button{
+  color: blue;
+  border-color: blue;
+  padding: 5px;
+  margin: 5px;
+  font-size: larger;
+}
+
+.page_3 button:last-child{
+  color: green;
+  border-color: green;
+  padding: 5px;;
+}
+
+.page_3 button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.page_3 .under_dog2{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.under_dog3{
+  margin: 40px auto;
+}
